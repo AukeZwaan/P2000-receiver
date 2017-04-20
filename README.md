@@ -3,4 +3,6 @@ Simple GUI for showing P2000 messages received on a Raspberry Pi using a DVB-T d
 
 Please note that, of course, just reading a text file is not the best approach. The next version should use a simple SQLite database instead.
 
+Also, in case anyone broadcasts XSS messages over the P2000 network, you are screwed. Have fun!
+
 Full tutorial: https://aukezwaan.nl/tutorials/creating-a-mobile-p2000-receiver-using-a-raspberry-pi/
